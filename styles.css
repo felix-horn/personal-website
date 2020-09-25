@@ -51,22 +51,36 @@ p {
 /* ============ class selectors ============= */
 
 .material-icons {
-  margin-right: 3px;
+  /*margin-right: 1em;
   position: relative;
-  top: 5px;
+top: .25em;
+ */
+/*  text-decoration: none; */
 }
 
 .tile {
   background-color: white;
-  border-radius: 16px;
+  border-radius: 1em;
   padding: 1em 1em 1em 2em;
   box-shadow: 0rem 0rem 1rem lightgray;
+}
+
+.pic {
+    overflow: hidden;
+    padding: 0;
 }
 
 .links {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  /* 
+  vertical-align: middle; */
+}
+
+.spread-horizontaly {
+    display: flex;
+    justify-content: space-around;
+
 }
 
 .flexbox {
@@ -84,7 +98,7 @@ p {
 .mini-tiles li {
   color: white;
   background-color: rgb(49, 49, 49);
-  border-radius: 16px;
+  border-radius: 2em;
   padding: 1em 1em 1em 2em;
 }
 
@@ -97,13 +111,13 @@ p {
 
 .flex-container {
   display: flex;
-  border-radius: 20px;
+  border-radius: 2em;
   overflow: hidden;
 }
 
 .container {
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 2em
   grid-template-columns: 1fr 2fr;
   /*grid-template-rows: repeat(3, 50px);*/
 }
