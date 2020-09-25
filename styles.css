@@ -50,22 +50,42 @@ p {
 
 /* ============ class selectors ============= */
 
+.material-icons {
+  margin-right: 3px;
+  position: relative;
+  top: 5px;
+}
+
 .tile {
   background-color: white;
   border-radius: 16px;
-}
-
-.flexbox {
-  display: flex;
-  padding: 1em;
-  align-items: ;
-  margin: 1em 0em;
-  justify-content: space-around;
+  padding: 1em 1em 1em 2em;
+  box-shadow: 0rem 0rem 1rem lightgray;
 }
 
 .links {
   display: flex;
   align-items: center;
+  justify-content: space-around;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.mini-tiles {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.mini-tiles li {
+  color: white;
+  background-color: rgb(49, 49, 49);
+  border-radius: 16px;
+  padding: 1em 1em 1em 2em;
 }
 
 .intro {
