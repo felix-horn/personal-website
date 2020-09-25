@@ -63,7 +63,8 @@ top: .25em;
 .tile {
   background-color: white;
   border-radius: 1em;
-  padding: .5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
   box-shadow: 0rem 0rem 1rem lightgray;
 }
 
@@ -75,24 +76,29 @@ top: .25em;
 .links {
   display: flex;
   align-items: center;
-  /* 
-  vertical-align: middle; */
+  justify-content: center;
 }
 
 .spread-horizontaly {
     display: flex;
     justify-content: space-around;
+}
 
+.no-top-margin {
+    margin-top: 0;
 }
 
 .flexbox {
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   align-items: flex-start;
   list-style: none;
   
 }
 
+.centered {
+    text-align: center;
+}
 
 
 .mini-tiles {
@@ -113,6 +119,7 @@ top: .25em;
   margin: .25em;
 
 }
+
 
 .intro {
   display: flex;
