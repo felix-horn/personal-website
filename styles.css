@@ -86,8 +86,10 @@ top: .25em;
 }
 
 .pic {
+  display: flex;
   overflow: hidden;
   padding: 0;
+  height: 100vw;
 }
 
 .links {
@@ -99,13 +101,6 @@ top: .25em;
 .spread-horizontaly {
   display: flex;
   justify-content: space-around;
-}
-
-.flexbox {
-  display: flex;
-  /* justify-content: space-around; */
-  align-items: flex-start;
-  list-style: none;
 }
 
 .centered {
@@ -172,7 +167,7 @@ top: .25em;
   /*grid-template-rows: repeat(3, 50px);*/
 }
 
-.even-grid div:nth-child(odd) {
+.cv div:nth-child(odd) {
   text-align: right;
 }
 
