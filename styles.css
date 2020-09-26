@@ -16,13 +16,15 @@ header {
 
 /* ========================= */
 
-h1 { /* Hi, I'm felix */
+h1 {
+  /* Hi, I'm felix */
   font-size: 2em;
   font-weight: 300;
   text-align: center;
 }
 
-h2 { /* Jump to, Contact, Social Media, etc */
+h2 {
+  /* Jump to, Contact, Social Media, etc */
   /*   font-size: 1, 2em;*/
   font-weight: 300;
   text-align: center;
@@ -30,13 +32,15 @@ h2 { /* Jump to, Contact, Social Media, etc */
   margin-bottom: 0;
 }
 
-h3 { /* Dev Skills, Other Skills, About Me, CV */
+h3 {
+  /* Dev Skills, Other Skills, About Me, CV */
   /*   font-size: 1, 2em;*/
   font-weight: 300;
   text-align: center;
 }
 
-h4 { /* Welcome to my Space, */
+h4 {
+  /* Welcome to my Space, */
   /*   font-size: 1, 2em;*/
   font-weight: 300;
   text-align: center;
@@ -49,16 +53,18 @@ a {
 
 p {
   font-weight: 300;
-  margin: .5em;
+  margin: 0.5em;
 }
 
 .no-top-margin {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 .block {
-    text-align: justify;
-    margin: 0em 1em;
+  text-align: justify;
+  margin: 0em 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid rgb(49, 49, 49);
 }
 
 /* ============ class selectors ============= */
@@ -68,7 +74,7 @@ p {
   position: relative;
 top: .25em;
  */
-/*  text-decoration: none; */
+  /*  text-decoration: none; */
 }
 
 .tile {
@@ -80,8 +86,8 @@ top: .25em;
 }
 
 .pic {
-    overflow: hidden;
-    padding: 0;
+  overflow: hidden;
+  padding: 0;
 }
 
 .links {
@@ -91,84 +97,83 @@ top: .25em;
 }
 
 .spread-horizontaly {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
-
-
 
 .flexbox {
   display: flex;
   /* justify-content: space-around; */
   align-items: flex-start;
   list-style: none;
-  
 }
 
 .centered {
-    text-align: center;
+  text-align: center;
 }
 
-
-.mini-tiles { /* container of mini-tile / e.g how much space between them */
+.mini-tiles {
+  /* container of mini-tile / e.g how much space between them */
   display: flex;
   /* align-items: center;*/
-  justify-content: space-around; 
+  justify-content: space-around;
   list-style: none;
   flex-wrap: wrap;
   padding: 0em;
 }
 
-.mini-tiles li { /* list items within mini-tiles (each skill) */
+.mini-tiles li {
+  /* list items within mini-tiles (each skill) */
   display: inline;
   color: white;
   background-color: rgb(49, 49, 49);
-  border-radius: .5em;
-  padding: .5em;
-  margin: .25em;
-
+  border-radius: 0.5em;
+  padding: 0.5em;
+  margin: 0.25em;
 }
 
-
-.grid {
+.even-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1em; 
+  gap: 1em;
 }
 
 .item {
-  padding: .5em;
+  padding: 0.5em;
   overflow: hidden;
 }
 
 .item img {
-    max-width: 100%;
-    max-height: 100%;
-    margin-left: auto;
+  max-width: 100%;
+  max-height: 100%;
+  margin-left: auto;
   margin-right: auto;
   display: block;
 }
 
 .adjusted-logo-size {
-    max-width: 50%;
-    max-height: 50%;
+  max-width: 50%;
+  max-height: 50%;
 }
 
 .item p {
-    text-align: center;
-    
+  text-align: center;
 }
 
 .grid a {
-    font-size: 4vw;
-    text-align: center;
+  font-size: 4vw;
+  text-align: center;
 }
 
-.container {
+.cv-grid {
   display: grid;
-  grid-gap: 2em
+  grid-gap: 2em;
   grid-template-columns: 1fr 2fr;
   /*grid-template-rows: repeat(3, 50px);*/
+}
+
+.even-grid div:nth-child(odd) {
+  text-align: right;
 }
 
 .item1 {
