@@ -121,17 +121,31 @@ top: .25em;
 }
 
 
-.intro {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em; 
 }
 
-.flex-container {
-  display: flex;
-  border-radius: 2em;
-  overflow: hidden;
+.item {
+  margin: 1em 0em;
+  grid-column: 1 3;
+}
+
+.logo {
+    max-width:90%;
+    max-height:90%;
+    margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.item img {
+    max-width:90%;
+    max-height:90%;
+    margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .container {
@@ -143,4 +157,5 @@ top: .25em;
 
 .item1 {
   grid-column: 1;
+  margin: 1em;
 }
