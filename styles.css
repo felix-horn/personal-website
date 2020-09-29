@@ -86,7 +86,7 @@ top: .25em;
   border-radius: 1em;
   padding-top: 1em;
   padding-bottom: 1em;
-  box-shadow: 0rem 0rem rem lightgray;
+  box-shadow: 0rem 0rem 2rem lightgray;
 }
 
 .pic {
@@ -148,6 +148,7 @@ top: .25em;
 }
 
 .item img {
+  /* so besser nicht, sondern eigene Klasse weil eine Klasse mit Type spezifischer ist als einzelne Klasse. Überschreiben wird damit kompliziert. */
   max-width: 100%;
   max-height: 100%;
   margin-left: auto;
@@ -188,7 +189,7 @@ top: .25em;
 
 /* ============ Media Queries ============== */
 
-@media (min-width: 1000px) {
+@media (min-width: 800px) {
   body {
   }
 
