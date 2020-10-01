@@ -11,9 +11,6 @@ body {
   font-size: 112.5%; /*of 16px --> 18px*/
 }
 
-header {
-}
-
 /* ========================= */
 
 h1 {
@@ -72,14 +69,6 @@ p {
 }
 
 /* ============ class selectors ============= */
-
-.material-icons {
-  /*margin-right: 1em;
-  position: relative;
-top: .25em;
- */
-  /*  text-decoration: none; */
-}
 
 .tile {
   background-color: white;
@@ -190,9 +179,6 @@ top: .25em;
 /* ============ Media Queries ============== */
 
 @media (min-width: 800px) {
-  body {
-  }
-
   h2 {
     margin-top: 0;
   }
